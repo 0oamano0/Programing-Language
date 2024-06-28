@@ -21,3 +21,11 @@ int main(){
         row++;
     }
 }
+
+/*
+! Output
+? Enter the number : 3
+    1
+    2 3
+    3 4 5
+*/

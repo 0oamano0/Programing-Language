@@ -18,3 +18,12 @@ int main(){
         row++;
     }
 }
+
+/*
+! Output
+? Enter the Number : 3
+    *
+    **
+    ***
+
+*/

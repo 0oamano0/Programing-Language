@@ -1,4 +1,4 @@
-//! Pattern : 10 ->
+//! Pattern : 10 -> Printing triangle with reverse number
 #include<iostream>
 using namespace std;
 int main(){

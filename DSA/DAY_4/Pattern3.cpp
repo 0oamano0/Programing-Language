@@ -11,7 +11,7 @@ int main(){
 
         int j=1;
         while(j<=n){
-            cout<<j;
+            cout<<j<<" ";
             j++;
         }
         cout<<endl;
@@ -19,3 +19,12 @@ int main(){
     }
 
 }
+
+
+/*
+! Output
+? Enter the number : 3
+? 1 2 3
+? 1 2 3
+? 1 2 3
+*/

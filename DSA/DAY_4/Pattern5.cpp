@@ -21,3 +21,11 @@ int main(){
         i+=1;
     }
 }
+
+/*
+! Output
+? Enter the number : 3
+? 1 2 3
+? 4 5 6
+? 7 8 9
+*/
