@@ -1,10 +1,10 @@
-//! pattern : 14 -> Rectangular pattern
+//! Pattern : 20 ->opposit triangle
 
 #include<iostream>
 using namespace std;
 
 int main(){
-    
+
     int num;
     cout<<"Enter the number : ";
     cin>>num;
@@ -12,30 +12,27 @@ int main(){
     int row=1;
     while(row<=num){
 
+        //? Print star kar lo
         int col=1;
-        while(col<=num){
+        int star=num-row+1;
+        while(col<=star){
 
-            char ch='A'+row+col-2;
-            cout<<ch;
+            cout<<"*";
             col++;
         }
         cout<<endl;
         row++;
 
+
     }
-
-
 }
 
-
 /*
-output :
+Output : 
 Enter the number : 5
-ABCDE
-BCDEF
-CDEFG
-DEFGH
-EFGHI
+*****
+****
+***
+**
+*
 */
-
-

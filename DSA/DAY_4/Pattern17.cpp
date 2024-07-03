@@ -1,10 +1,10 @@
-//! pattern : 14 -> Rectangular pattern
+//! Pattern 17
 
 #include<iostream>
 using namespace std;
 
 int main(){
-    
+
     int num;
     cout<<"Enter the number : ";
     cin>>num;
@@ -13,7 +13,8 @@ int main(){
     while(row<=num){
 
         int col=1;
-        while(col<=num){
+
+        while(col<=row){
 
             char ch='A'+row+col-2;
             cout<<ch;
@@ -21,21 +22,17 @@ int main(){
         }
         cout<<endl;
         row++;
-
     }
-
-
 }
 
 
 /*
 output :
+
 Enter the number : 5
-ABCDE
-BCDEF
-CDEFG
-DEFGH
+A
+BC
+CDE
+DEFG
 EFGHI
 */
-
-

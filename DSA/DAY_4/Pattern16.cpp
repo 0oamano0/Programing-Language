@@ -1,41 +1,36 @@
-//! pattern : 14 -> Rectangular pattern
+//! Pattern 16 -> Triangular pattern
 
 #include<iostream>
 using namespace std;
-
 int main(){
-    
+
     int num;
     cout<<"Enter the number : ";
     cin>>num;
 
     int row=1;
+    char ch='A';
     while(row<=num){
 
         int col=1;
-        while(col<=num){
+        while(col<=row){
 
-            char ch='A'+row+col-2;
-            cout<<ch;
+            cout << ch;
+            ch++;
             col++;
         }
         cout<<endl;
         row++;
-
     }
-
-
 }
 
 
 /*
-output :
+output : 
 Enter the number : 5
-ABCDE
-BCDEF
-CDEFG
-DEFGH
-EFGHI
+A
+BC
+DEF
+GHIJ
+KLMNO
 */
-
-
