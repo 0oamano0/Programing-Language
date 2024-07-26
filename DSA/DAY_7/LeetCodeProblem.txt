@@ -1,0 +1,2 @@
+Day : 7
+Problem Number : 7 , 1009
